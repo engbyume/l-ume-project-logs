@@ -1,44 +1,56 @@
 # LUME Prototype — Jeremy Ume
 
 ## Overview
-**LUME** is a modular motion‑feedback engine that helps athletes and therapists visualize safe movement ranges in real time.  
-This repository documents the version‑by‑version evolution of the system — wiring diagrams, firmware, logs, and reflections.
+**LUME** is a modular motion‑feedback engine that lets athletes and therapists visualize safe movement ranges in real time.  
+This repository documents the system’s evolution — from early experiments to integrated demos — including firmware versions and reflections at each milestone.
 
 ---
 
 ## v0.1 — Early Experiments
 **Progress**
-- Built and debugged button‑controlled vibration and motor tests on the breadboard.  
-- Validated button input logic (digital HIGH/LOW), timing, and debounce.  
-- Experimented with buzzer and motor feedback patterns to test different feedback modalities.  
-- Documented setup steps, errors, and quick fixes before committing to a light‑first design.  
+- Built multiple breadboard prototypes to explore digital I/O, motors, buzzers, and buttons.  
+- Verified logic for button input, timing, and debounce.  
+- Tested feedback through vibration and tone patterns to understand user experience.  
+- Captured notes and serial logs to guide the shift toward a light‑first feedback model.
+
+**How to Run**
+- Open any sketch in `Arduino/v0.1_experiments` and upload through the Arduino IDE.  
+- Follow in‑code comments for wiring references.  
+- Observe the reaction (motor vibration, buzzer pattern, or serial output).  
 
 **Lessons Learned**
-- Breadboard debugging *is* real engineering — small wiring errors cost hours.  
-- Button orientation and pull‑down/pull‑up resistors are foundational for stable input.  
-- Rapid component‑by‑component testing saves time once systems integrate later.  
-- Non‑visual feedback (motors/buzzers) taught clarity lessons that led to the LED‑first interface.
+- Hardware debugging trains patience and precision; even a single miswired lead matters.  
+- Understanding pull‑ups and pull‑downs was foundational for building stable input logic.  
+- Early vibration and tone feedback proved confusing for quick interpretation → inspired move to LEDs.  
+- Systematically logging every test saved hours when integrating later versions.
 
 ---
 
 ## v0.2 — Bench LED + Button Demo
 **Progress**
-- Integrated 3‑LED (green/yellow/red) system with button‑controlled on/off toggling.  
-- Implemented non‑blocking timing using `millis()` for consistent, responsive control.  
-- Designed the firmware to always start from the green LED zone for repeatable demos.  
-- Verified start/stop logic and sequence visuals for filming and data logging.
+- Combined button input and LED outputs into a unified bench‑top prototype.  
+- Added non‑blocking timing with `millis()` for smooth, responsive control.  
+- Implemented clean toggle logic so the sequence always restarts from the green zone.  
+- Filmed the first admission‑grade demo showing clear start/stop visual feedback.
+
+**How to Run**
+- Upload any `.ino` file from `Arduino/v0.2_bench_demo` via Arduino IDE.  
+- Watch LED sequence begin with green and cycle through yellow → red on button press.  
+- Press the button again to stop and reset.  
 
 **Lessons Learned**
-- Transitioning from separate tests to an integrated demo revealed timing issues from blocking `delay()` calls.  
-- Using `millis()` unlocked simultaneous input checking and smooth responsiveness.  
-- Visual (light‑first) feedback provides instant usability compared to audible or haptic cues.  
-- Documenting each build phase in GitHub + Notion creates a living engineering journal — essential for admissions and competitions.
+- Integrating code pieces exposed how `delay()` blocks input — moving to `millis()` solved it elegantly.  
+- Visual feedback (light → color → pattern) communicates motion safety immediately.  
+- A single, consistent button sequence improves usability and filming clarity.  
+- Documenting firmware by version shows measurable progress and readiness for competitions.
 
 ---
 
 ## Next Steps
-- **v0.3 Portable Strap Prototype:** dual‑IMU rig, battery power, on‑body test sessions.  
+- **v0.3 Portable Strap Prototype:** dual IMUs, elastic mount, NeoPixel feedback.  
+- **v0.4 Analytics:** data logging, progression rules, CSV plots.  
+- **v1.0 Wearable:** final field‑ready enclosure with calibration and battery power.  
 
 ---
 
-_Last updated: October 5, 2025_
+_Last updated September 28 2025_
