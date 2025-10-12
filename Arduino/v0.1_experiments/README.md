@@ -10,4 +10,7 @@ First hardware and firmware drills for learning sensors, buttons, motors, and bu
 - `feedback_patterns.ino` / `ramping_buzz_pattern.ino` – early vibration/light feedback trials.  
 - `serial_monitor_button.ino`, `triple_buzz_button.ino`, `lume_morse_code_buzz_button.ino` – experiments that led to the light‑first UX direction.
 
+**Related Directories:**  
+[`/data`](../../data)  • [`/media`](../../media) 
+
 _Last updated: September 28 2025_  
