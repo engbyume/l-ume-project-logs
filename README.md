@@ -1,13 +1,13 @@
-# LUME Project Logs
+# L-UME Project Logs
 Firmware · Data · Media  
-Comprehensive record of the LUME motion‑feedback system builds (v0.1 → v1.0)
+Comprehensive record of the L-UME motion‑feedback system builds (v0.1 → v1.0)
 
-# LUME Prototype — Jeremy Ume
+# L-UME Prototype — Jeremy Ume
 
 ## Overview
-# LUME — Light‑based User Motion Engine
+# L-UME — Light‑based User Motion Engine
 
-**LUME** is a modular motion‑feedback engine that lets athletes and therapists visualize safe movement ranges in real time.  
+**L-UME** is a modular motion‑feedback engine that lets athletes and therapists visualize safe movement ranges in real time.  
 This repository documents the system’s evolution — from early experiments to integrated demos — including firmware versions and reflections at each milestone.
 
 ---
