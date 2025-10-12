@@ -1,6 +1,6 @@
-# LUME Firmware Index
+# L-UME Firmware Index
 
-This directory contains all LUME firmware versions, each with its own README and .ino sketches.
+This directory contains all L-UME firmware versions, each with its own README and .ino sketches.
 
 | Version | Folder | Description | Last Updated |
 |:--|:--|:--|:--|
