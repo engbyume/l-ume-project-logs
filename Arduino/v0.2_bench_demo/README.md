@@ -1,4 +1,4 @@
-# LUME v0.2 — Bench LED + Button Demo
+# L-UME v0.2 — Bench LED + Button Demo
 ---
 
 **Purpose:**  
