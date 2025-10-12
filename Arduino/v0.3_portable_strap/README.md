@@ -10,4 +10,7 @@ This version introduced dual IMUs, a wearable form factor, and
 - `v03_dualIMU_LEDzones.ino` — used delta angle (Δθ = pitch₂ – pitch₁) for relative motion feedback on strap.
 - `v03_logger.ino` — output structured CSV lines timestamp, pitch₁, pitch₂, Δθ, zone for analytics.
 
+**Related Directories:**  
+[`/data`](../../data)  • [`/media`](../../media) 
+
 _Last updated: October 12 2025_
