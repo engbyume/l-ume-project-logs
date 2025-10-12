@@ -1,4 +1,4 @@
-# LUME v0.1 — Early Experiments
+# L-UME v0.1 — Early Experiments
 
 **Purpose:**  
 First hardware and firmware drills for learning sensors, buttons, motors, and buzzers before the integrated LED‑feedback design.
