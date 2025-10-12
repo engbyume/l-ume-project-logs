@@ -1,6 +1,5 @@
 # LUME v0.3 — Portable Strap Prototype
 ---
-
 **Purpose:**  
 Transition LUME from bench prototype to a portable, on‑body system capable of recording real motion data.  
 This version introduced dual IMUs, a wearable form factor, and CSV logging for competitive submissions (MIT THINK and Regeneron).
