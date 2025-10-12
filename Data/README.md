@@ -1,12 +1,12 @@
-# 📊 LUME Data Archive
+# 📊 L-UME Data Archive
 
-This folder documents and organizes all datasets and CSV logs captured across LUME versions.
+This folder documents and organizes all datasets and CSV logs captured across L-UME versions.
 
 ---
 
 ## 🧾 v0.3 – Portable Strap Logs
 
-**Title:** LUME v0.3 Single‑IMU LED Feedback Test  
+**Title:** L-UME v0.3 Single‑IMU LED Feedback Test  
 **Recorded:** October 11 2025  
 **Contents:** Angles (°) • Zone (0–2) • Timestamp (ms)  
 **Format:** `timestamp_ms, pitch_deg, zone`  
