@@ -1,4 +1,4 @@
-# LUME v0.3 — Portable Strap Prototype
+# L-UME v0.3 — Portable Strap Prototype
 ---
 **Purpose:**  
 Transition LUME from bench prototype to a portable, on‑body system capable of recording real motion data.  
