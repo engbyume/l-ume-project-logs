@@ -1,3 +1,7 @@
+# LUME Project Logs
+Firmware · Data · Media  
+Comprehensive record of the LUME motion‑feedback system builds (v0.1 → v1.0)
+
 # LUME Prototype — Jeremy Ume
 
 ## Overview
