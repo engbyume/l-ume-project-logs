@@ -5,6 +5,8 @@ Comprehensive record of the LUME motion‑feedback system builds (v0.1 → v
 # LUME Prototype — Jeremy Ume
 
 ## Overview
+# LUME — Light‑based User Motion Engine
+
 **LUME** is a modular motion‑feedback engine that lets athletes and therapists visualize safe movement ranges in real time.  
 This repository documents the system’s evolution — from early experiments to integrated demos — including firmware versions and reflections at each milestone.
 
