@@ -28,6 +28,18 @@ This folder documents and organizes all datasets and CSV logs captured
 
 ---
 
+## 🧪 v0.3 – SIM MODE Angle & Zone Logs
+
+**Title:** L‑UME v0.3 SIM MODE Dual-IMU Delta Angle Test  
+**Recorded:** October 2025  
+**Contents:** Simulated pitch angles A/B (°) • Relative angle Δθ (°) • Zone (1–3) • Timestamp (ms)  
+**Format:** `timestamp_ms, pitchA_deg, pitchB_deg, delta_deg, zone`  
+**Sample duration:** ~10 s (software-only simulation run)
+
+📂 **File:** [`v0.3_SIM_MODE_test01.csv`](https://drive.google.com/file/d/1rQ7TdrhSXPh_Ag9bzSNl5kqY1kpe96ZB/view?usp=drive_link)
+
+---
+
 ## 📈 Upcoming Additions
 Future datasets will include dual‑IMU strap tests with relative angle (Δθ) and progression metrics for v0.4 analytics. 
 Each entry will include:
