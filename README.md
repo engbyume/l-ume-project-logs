@@ -52,6 +52,30 @@ This repository documents the system’s evolution — from early experiments to
 
 ---
 
+## v0.3 – Dual‑IMU Strap Prototype
+
+**Progress**  
+- Moved from bench‑top demos to a wearable knee strap that runs from a battery pack.  
+- Mounted two IMUs on mini breadboards attached to foam‑backed pads: one on the thigh (reference) and one on the side of the knee (primary knee‑angle sensor).  
+- Built a controller plate that holds the Arduino Nano, three LEDs, a push‑button, and the battery, secured to the thigh with elastic straps.  
+- Implemented a button‑gated sketch that reads both IMUs, computes a knee‑related angle, maps it into three zones (1 = red, 2 = yellow, 3 = green), and logs time‑stamped data to CSV.  
+- Recorded the first on‑strap demo video and initial strap session logs showing the knee moving through all three zones.
+
+**How to Run**  
+- Upload `v03_dualIMU_zones_button_logger.ino` from `Arduino/v0.3_portable_strap/` via the Arduino IDE.  
+- Strap the controller plate to the thigh and the IMU pads to the thigh and side of the knee.  
+- Press the button once to start; bend the knee through your prescribed range to see red/yellow/green transitions.  
+- Press the button again to stop; copy Serial Monitor output into the `Data/` folder as a CSV log.
+
+**Lessons Learned**  
+- Positioning and securing hardware on the leg is as important as code; loose wires and shifting boards can change the angle readings.  
+- A single knee‑side IMU can provide a strong signal for knee flexion, while the thigh IMU can serve as a reference for future versions.  
+- Button‑gated logging produces clean start/stop blocks of data that are easier to analyze and compare across sessions.  
+- Even with simple Arduino‑level parts, it is possible to build a portable, light‑first feedback system that runs on the body instead of just on the bench.
+
+---
+```
+
 ## Next Steps
 - **v0.3 Portable Strap Prototype:** dual IMUs, elastic mount, NeoPixel feedback.  
 - **v0.4 Analytics:** data logging, progression rules, CSV plots.  
