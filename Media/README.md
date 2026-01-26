@@ -22,5 +22,12 @@ This folder links and organizes all motion‑demo videos, screenshots, and
 
 ▶ **[Watch on Google Drive](https://drive.google.com/file/d/1-Sl-I8dYcXT4_05yUGcUOG6q6Tz-K0pL/view?usp=drive_link)**
 
+---
 
-## 🖼️ Screenshots and Thumbnails
+## 🎛 v0.3 – On‑Body Dual‑IMU Knee Strap Demo
+
+**Title:** L‑UME v0.3 Dual‑IMU Knee Strap Demo (Zones 1–3, Button‑Gated)  
+**Recorded:** [November 30 2025]  
+**Duration:** ~18 s  
+
+▶ **[Watch on Google Drive](https://drive.google.com/file/d/1y9AdhbmSqHGUm7JngQEZMoLdQaSCsIb1/view?usp=drive_link)**
