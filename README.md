@@ -2,17 +2,17 @@
 Firmware · Data · Media  
 Comprehensive record of the L-UME motion‑feedback system builds (v0.1 → v1.0)
 
-# L-UME Prototype — Jeremy Ume
+# L-UME Prototype - Jeremy Ume
 
 ## Overview
-# L-UME — Light‑based User Motion Engine
+# L-UME - Light‑based User Motion Engine
 
 **L-UME** is a modular motion‑feedback engine that lets athletes and therapists visualize safe movement ranges in real time.  
-This repository documents the system’s evolution — from early experiments to integrated demos — including firmware versions and reflections at each milestone.
+This repository documents the system’s evolution - from early experiments to integrated demos - including firmware versions and reflections at each milestone.
 
 ---
 
-## v0.1 — Early Experiments
+## v0.1 - Early Experiments
 **Progress**
 - Built multiple breadboard prototypes to explore digital I/O, motors, buzzers, and buttons.  
 - Verified logic for button input, timing, and debounce.  
@@ -32,7 +32,7 @@ This repository documents the system’s evolution — from early experiments to
 
 ---
 
-## v0.2 — Bench LED + Button Demo
+## v0.2 - Bench LED + Button Demo
 **Progress**
 - Combined button input and LED outputs into a unified bench‑top prototype.  
 - Added non‑blocking timing with `millis()` for smooth, responsive control.  
@@ -45,7 +45,7 @@ This repository documents the system’s evolution — from early experiments to
 - Press the button again to stop and reset.  
 
 **Lessons Learned**
-- Integrating code pieces exposed how `delay()` blocks input — moving to `millis()` solved it elegantly.  
+- Integrating code pieces exposed how `delay()` blocks input - moving to `millis()` solved it elegantly.  
 - Visual feedback (light → color → pattern) communicates motion safety immediately.  
 - A single, consistent button sequence improves usability and filming clarity.  
 - Documenting firmware by version shows measurable progress and readiness for competitions.
