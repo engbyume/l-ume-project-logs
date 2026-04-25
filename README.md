@@ -76,9 +76,11 @@ This repository documents the system’s evolution - from early experiments to i
 ---
 ```
 
-## Next Steps 
-- **v0.4 Analytics:** data logging, progression rules, CSV plots.  
-- **v1.0 Wearable:** final field‑ready enclosure with calibration and battery power.  
+## Next Steps
+- **v0.4 Wireless Integration:** Implement HM-10 BLE support for real-time wireless data transmission.
+- **v0.5 Analytics Dashboard:** Build a Python/Streamlit web dashboard for live data visualization and session analysis.
+- **Research Publication:** Finalize and submit the L-UME technical paper to *eiRxiv* (Target: before Aug 1).
+- **Academic Outreach:** Initiate contact with MAHI Lab (Rice) and HERC Lab (Texas A&M) for research collaboration.
 
 ---
 
