@@ -1,4 +1,4 @@
-# L-UME Academy
+# The L-UME Website
 Technical Mastery · System Architecture · Log Analysis  
 Central documentation and engineering assistant for the L-UME ecosystem.
 
@@ -8,14 +8,22 @@ Central documentation and engineering assistant for the L-UME ecosystem.
 ---
 
 ## Technical Access
-The Academy is hosted on AI Studio and includes a dedicated engineering copilot:
+The primary website and assistant platform is hosted on AI Studio:
 
-**[Enter L-UME Academy](https://ai.studio/apps/59325ff1-cf0f-40b3-bab2-73a5405bb96f)**
+**[Enter The L-UME Website](https://ai.studio/apps/59325ff1-cf0f-40b3-bab2-73a5405bb96f)**
+
+---
+
+## Why "L-UME Academy"?
+While this is the primary **L-UME Website**, the name **L-UME Academy** is utilized to emphasize the platform's role as an educational resource. It is structured to facilitate:
+- **Technical Onboarding:** Teaching the underlying math and firmware logic.
+- **Mastery of Data:** Providing the tools needed to analyze motion logs.
+- **Systematic Learning:** Guiding developers through the evolution of the wearable hardware.
 
 ---
 
 ## L-UME Copilot
-The Academy features the **L-UME Copilot**, a specialized assistant trained on the project's technical specifications.
+The website features the **L-UME Copilot**, a specialized assistant trained on the project's technical specifications.
 
 **Capabilities**
 - **Architecture Analysis:** Explains B2 math logic and IMU zone mapping.
@@ -23,14 +31,6 @@ The Academy features the **L-UME Copilot**, a specialized assistant trained on t
 - **Log Interpretation:** Analyzes uploaded CSV session logs to provide performance insights.
 
 ![L-UME Academy Screenshot](screenshot.png)
-
----
-
-## Purpose
-- **System Architecture:** Deep dives into the real-time movement range visualization logic.
-- **Hardware Documentation:** Comprehensive record of sensor and haptic feedback configurations.
-- **Data Engineering:** Unified framework for processing and plotting motion data.
-- **Development Roadmap:** Tracking the evolution toward field-ready wearable devices.
 
 ---
 
