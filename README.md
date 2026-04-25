@@ -76,11 +76,10 @@ This repository documents the system’s evolution - from early experiments to i
 ---
 ```
 
-## Next Steps
-- **v0.3 Portable Strap Prototype:** dual IMUs, elastic mount, NeoPixel feedback.  
+## Next Steps 
 - **v0.4 Analytics:** data logging, progression rules, CSV plots.  
 - **v1.0 Wearable:** final field‑ready enclosure with calibration and battery power.  
 
 ---
 
-_Last updated October 10th 2025_
+_Last updated April 25th 2026_
