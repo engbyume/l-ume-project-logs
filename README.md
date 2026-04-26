@@ -1,5 +1,5 @@
 # L-UME Project Logs
-![L-UME Logo](Media/l-ume-text-logo.png)
+![L-UME Symbol](Media/lume-symbol.png) ![L-UME Text Logo](Media/lume-text.png)
 Firmware · Data · Media  
 Comprehensive record of the L-UME motion‑feedback system builds (v0.1 → v1.0)
 
