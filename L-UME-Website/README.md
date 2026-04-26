@@ -8,8 +8,6 @@ Central documentation and engineering assistant for the L-UME ecosystem.
 ---
 
 ## Technical Access
-The primary website and assistant platform is hosted on AI Studio:
-
 **[Enter The L-UME Website](https://l-ume-academy-137805559096.us-east1.run.app)**
 
 ---
