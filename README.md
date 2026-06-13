@@ -79,7 +79,22 @@ This repository documents the system’s evolution - from early experiments to i
 - Even with simple Arduino‑level parts, it is possible to build a portable, light‑first feedback system that runs on the body instead of just on the bench.
 
 ---
-```
+
+## Schematics
+
+To prepare for the final hardware build, the mechatronic circuit and raw physical wiring have been fully mapped. This layout ensures reliable dual-IMU sensor readings, HM-10 BLE wireless communication, and real-time LED visual feedback on the body.
+
+### Component-Level Schematic
+Detailed mechatronic circuit layout displaying pin connections between the Arduino Nano, dual MPU6050 IMUs, HM-10 Bluetooth module, LEDs, and the voltage divider resistors:
+
+![L-UME Component Schematics](schematics/L-UME%20Componenet%20Schematics.png)
+
+### Raw Wiring Diagram
+The raw physical connection mapping for assembly and soldering reference:
+
+![L-UME Raw Schematics](schematics/L-UME%20Raw%20Schematics.png)
+
+---
 
 ## Next Steps
 - **v0.4 Wireless Integration:** Implement HM-10 BLE support for real-time wireless data transmission.
