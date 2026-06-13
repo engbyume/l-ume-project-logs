@@ -87,12 +87,12 @@ To prepare for the final hardware build, the mechatronic circuit and raw physica
 ### Component-Level Schematic
 Detailed mechatronic circuit layout displaying pin connections between the Arduino Nano, dual MPU6050 IMUs, HM-10 Bluetooth module, LEDs, and the voltage divider resistors:
 
-![L-UME Component Schematics](schematics/L-UME%20Componenet%20Schematics.png)
+![L-UME Component Schematics](Schematics/L-UME%20Componenet%20Schematics.png)
 
 ### Raw Wiring Diagram
 The raw physical connection mapping for assembly and soldering reference:
 
-![L-UME Raw Schematics](schematics/L-UME%20Raw%20Schematics.png)
+![L-UME Raw Schematics](Schematics/L-UME%20Raw%20Schematics.png)
 
 ---
 
